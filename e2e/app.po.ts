@@ -8,4 +8,8 @@ export class AngularKarmaJasminePage {
   getParagraphText() {
     return element(by.css('app-root h1')).getText();
   }
+
+  getNavigatorTag() {
+    return element(by.css('app-root nav')).getTagName();
+  }
 }

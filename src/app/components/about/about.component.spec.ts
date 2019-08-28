@@ -17,3 +17,4 @@ describe('AboutComponent', () => {
     expect(app.text).toEqual('about page');
   }));
 });
+console.table(object);

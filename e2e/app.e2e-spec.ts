@@ -11,4 +11,9 @@ describe('angular-karma-jasmine App', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
+
+  it('should display a navigator', () => {
+    page.navigateTo();
+    expect(page.getNavigatorTag()).toEqual('head');
+  });
 });
